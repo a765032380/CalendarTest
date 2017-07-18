@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="获取日期"
+        android:textSize="22sp"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:layout_marginTop="32dp"
+        android:id="@+id/tv_get_date"
+        />
+
+
+        <TextView
+            android:id="@+id/tv_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="入住时间："
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:textColor="#555555"
+            />
+
+
+
+    <TextView
+        android:id="@+id/tv_end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="离开时间："
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:textColor="#555555"
+        />
+
+
+
+
+</LinearLayout>
