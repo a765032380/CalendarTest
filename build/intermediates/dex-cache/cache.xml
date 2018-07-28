@@ -3,111 +3,111 @@
 
     <item
         is-multidex="false"
-        jar="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jar="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-26.0.0-alpha1_bb806849548485d818eeb5ee8921b0bb63a00f48.jar" />
+        <dex dex="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-26.0.0-alpha1_2b5834372c7d7d3125869d97d46c5fc0085d5fd7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-26.0.0-alpha1_43331828e6e60ff42a8f3525635e44842022064e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.0.0-alpha1_ecd5d71b367359bc6eb2fe784c9574af8cdae607.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-26.0.0-alpha1_fe4b1305187572fa099320007b9440dd38cb4210.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-26.0.0-alpha1_40f9010c42cbf5da77a89b1adaa8c44ba1710144.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_51fde4b16fd0a7eeb280abb2913adc017d9df2c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.0.0-alpha1_7c8b04ee73e1ba8e1f1be40c66635532889c46f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.0.0-alpha1_c050621f9860a9992a02bc83e5eaadb57940b9b6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\AndroidCompanyCode\projects\CalendarTest\app\libs\eventbus-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
-        <dex dex="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\pre-dexed\debug\eventbus-2.4.0_d1199e031d0d9e3d5157a7ffb6743c8c0fad4925.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.0.0-alpha1_fceb996ff9fe54edf2c193bc82aeafc92dd979a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.0-alpha1\jars\classes.jar"
+        jar="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-26.0.0-alpha1_37a305c79124c0f1f82e5f9cd7eac824e9a5bf77.jar" />
+        <dex dex="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-26.0.0-alpha1_04ee38e22cdb3b5695a9ccc86becb31f6e17ed62.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jar="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.0.0-alpha1_60ccd39a54a01fb5db0fa6c83bf0a99025eb3ab3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/AndroidStudioProjects/CalendarTest/app/libs/eventbus-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0_93170a2174699978d452c73e788e1f8792fe6a68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.0.0-alpha1_b8b237d6e1b5e607f2e6e77de279dbc5d23d30b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-26.0.0-alpha1_4a2bc9a7d2af8ed2ed6d14ba1705aeab1d3374fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.0.0-alpha1_fe4d0e70a6b5e2b6878d2872a141b7d6f0bb4635.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_36aea58734aa23c0a599a9d52f17961edc02af4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.0.0-alpha1_a26e4a3a868d596f3ef80ad3c22118b0171446f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.0.0-alpha1_5e02fffac964a2d1d5825b3efc1adde2607fd27c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="E:\AndroidCompanyCode\projects\CalendarTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.0.0-alpha1_c3111f6be634a1f9af76650a8e2d353f6a94c985.jar" />
+        <dex dex="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.0.0-alpha1_88d20a3def162101d5588a9664cff9b5d3f41ec9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/mac/AndroidStudioProjects/CalendarTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.0.0-alpha1_5686f074006e0d16f10ac91da7a7972deb8b87e7.jar" />
     </item>
 
 </items>

@@ -115,7 +115,7 @@ private void initData() {
                         i.putExtra("end_month" , stopDay.getMonth());
                         i.putExtra("end_day" , stopDay.getDay());
                         setResult(MainActivity.RESULT_OK, i);
-                        finish();
+//                        finish();
 
                 }
         });

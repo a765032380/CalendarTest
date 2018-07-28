@@ -6,15 +6,13 @@
 
     <TextView
         android:id="@+id/plan_time_txt_month"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#555555"
-        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="@color/text_color"
+        android:textSize="15sp"
         android:text="Aug 2017"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="10dp"
-        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@color/bg_date"
         />
 
     <LinearLayout
@@ -29,8 +27,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="日"
-            android:textSize="18sp"
-            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textColor="@color/weekend"
             android:gravity="center"
             />
 
@@ -40,8 +38,8 @@
             android:layout_weight="1"
             android:text="一"
 
-            android:textSize="18sp"
-            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textColor="@color/text_color"
             android:gravity="center"
             />
         <TextView
@@ -50,8 +48,8 @@
             android:layout_weight="1"
             android:text="二"
 
-            android:textSize="18sp"
-            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textColor="@color/text_color"
             android:gravity="center"
             />
         <TextView
@@ -60,8 +58,8 @@
             android:layout_weight="1"
             android:text="三"
 
-            android:textSize="18sp"
-            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textColor="@color/text_color"
             android:gravity="center"
             />
         <TextView
@@ -70,8 +68,8 @@
             android:layout_weight="1"
             android:text="四"
 
-            android:textSize="18sp"
-            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textColor="@color/text_color"
             android:gravity="center"
             />
 
@@ -81,8 +79,8 @@
             android:layout_weight="1"
             android:text="五"
 
-            android:textSize="18sp"
-            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textColor="@color/text_color"
             android:gravity="center"
 
             />
@@ -92,8 +90,8 @@
             android:layout_weight="1"
             android:text="六"
 
-            android:textSize="18sp"
-            android:textColor="#555555"
+            android:textSize="12sp"
+            android:textColor="@color/weekend"
             android:gravity="center"
             />
     </LinearLayout>

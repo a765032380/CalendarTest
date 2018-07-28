@@ -73,9 +73,12 @@ public class DayTimeAdapter extends RecyclerView.Adapter<DayTimeViewHolder>{
                     holder.select_ly_day.setEnabled(false);
                 }else{
                     holder.select_txt_day.setTextColor(Color.parseColor("#555555"));
+
                     holder.select_ly_day.setEnabled(true);
                 }
-
+                if ((position+1)%7==1||(position+1)%7==0){
+                    holder.select_txt_day.setTextColor(context.getResources().getColor(R.color.weekend));
+                }
             }else{
                 holder.select_ly_day.setEnabled(false);
             }
@@ -100,9 +103,9 @@ public class DayTimeAdapter extends RecyclerView.Adapter<DayTimeViewHolder>{
 
                     if(isPreferences.getSp().getInt("start_day_position", -1)!=-1 && isPreferences.getSp().getInt("end_day_position" , -1)!=-1){
 
-                        Log.d("TAG" ,"时间下标："+ isPreferences.getSp().getInt("start_month_position" , -1)+","+isPreferences.getSp().getInt("start_day_position" , -1)
-                                +", "+ isPreferences.getSp().getInt("end_month_position" , -1) +"," + isPreferences.getSp().getInt("end_day_position" , -1)
-                                +"," +isPreferences.getSp().getInt("start_day" , 0)+" , "+isPreferences.getSp().getInt("end_day" , 0) );
+//                        Log.d("TAG" ,"时间下标："+ isPreferences.getSp().getInt("start_month_position" , -1)+","+isPreferences.getSp().getInt("start_day_position" , -1)
+//                                +", "+ isPreferences.getSp().getInt("end_month_position" , -1) +"," + isPreferences.getSp().getInt("end_day_position" , -1)
+//                                +"," +isPreferences.getSp().getInt("start_day" , 0)+" , "+isPreferences.getSp().getInt("end_day" , 0) );
 
                         startDay.setDay(0);           // 该item 天数的 年月日等信息  赋给  开始日期
                         startDay.setMonth(0);
@@ -218,8 +221,8 @@ public class DayTimeAdapter extends RecyclerView.Adapter<DayTimeViewHolder>{
                         stopDay.setDayPosition(-1);
                     }
 
-
-                    EventBus.getDefault().post(new UpdataCalendar()); // 发消息刷新适配器，目的为了显示日历上各个日期的背景颜色
+                    notifyDataSetChanged();
+//                    EventBus.getDefault().post(new UpdataCalendar()); // 发消息刷新适配器，目的为了显示日历上各个日期的背景颜色
                 }
             });
 
@@ -255,36 +258,38 @@ public class DayTimeAdapter extends RecyclerView.Adapter<DayTimeViewHolder>{
             else if (startDay.getYear()== dayTimeEntity.getYear() && startDay.getMonth() == dayTimeEntity.getMonth() && startDay.getDay() == dayTimeEntity.getDay()){
                 //该item是 开始日期
                 holder.select_ly_day.setBackgroundResource(R.drawable.bg_time_start);
-                holder.select_txt_day.setText("入住");
+                holder.select_type.setText("入住");
                 holder.select_txt_day.setTextColor(context.getResources().getColor(R.color.white));
 
             }else if(stopDay.getYear()== dayTimeEntity.getYear() && stopDay.getMonth() == dayTimeEntity.getMonth() && stopDay.getDay() == dayTimeEntity.getDay()){
                 //该item是 结束日期
                 holder.select_ly_day.setBackgroundResource(R.drawable.bg_time_stop);
-                holder.select_txt_day.setText("离开");
+                holder.select_type.setText("离开");
                 holder.select_txt_day.setTextColor(context.getResources().getColor(R.color.white));
             }else if(dayTimeEntity.getMonthPosition()>= startDay.getMonthPosition() && dayTimeEntity.getMonthPosition()<= stopDay.getMonthPosition()){
                 //处于开始和结束之间的点
                 if (dayTimeEntity.getMonthPosition()== startDay.getMonthPosition()&& dayTimeEntity.getMonthPosition()== stopDay.getMonthPosition()){
                     //开始和结束是一个月份
                     if (dayTimeEntity.getDay()> startDay.getDay() && dayTimeEntity.getDay() < stopDay.getDay()) {
-                        holder.select_ly_day.setBackgroundResource(R.color.blue);
+                        holder.select_ly_day.setBackgroundResource(R.color.select);
                     }else{
                         holder.select_ly_day.setBackgroundResource(R.color.white);
                     }
                 }else if(startDay.getMonthPosition() != stopDay.getMonthPosition()){
-                    // 日期和 开始 不是一个月份
-                    if (dayTimeEntity.getMonthPosition()== startDay.getMonthPosition() && dayTimeEntity.getDay()> startDay.getDay()){
-                        //和初始相同月  天数往后
-                        holder.select_ly_day.setBackgroundResource(R.color.blue);
-                    }else if(dayTimeEntity.getMonthPosition()== stopDay.getMonthPosition() && dayTimeEntity.getDay()< stopDay.getDay()){
-                        //和结束相同月   天数往前
-                        holder.select_ly_day.setBackgroundResource(R.color.blue);
-                    }else if(dayTimeEntity.getMonthPosition()!= startDay.getMonthPosition() && dayTimeEntity.getMonthPosition()!= stopDay.getMonthPosition()){
-                        //和 开始结束都不是同一个月
-                        holder.select_ly_day.setBackgroundResource(R.color.blue);
-                    }else{
-                        holder.select_ly_day.setBackgroundResource(R.color.white);
+                    if (dayTimeEntity.getDay()!=0) {
+                        // 日期和 开始 不是一个月份
+                        if (dayTimeEntity.getMonthPosition() == startDay.getMonthPosition() && dayTimeEntity.getDay() > startDay.getDay()) {
+                            //和初始相同月  天数往后
+                            holder.select_ly_day.setBackgroundResource(R.color.select);
+                        } else if (dayTimeEntity.getMonthPosition() == stopDay.getMonthPosition() && dayTimeEntity.getDay() < stopDay.getDay()) {
+                            //和结束相同月   天数往前
+                            holder.select_ly_day.setBackgroundResource(R.color.select);
+                        } else if (dayTimeEntity.getMonthPosition() != startDay.getMonthPosition() && dayTimeEntity.getMonthPosition() != stopDay.getMonthPosition()) {
+                            //和 开始结束都不是同一个月
+                            holder.select_ly_day.setBackgroundResource(R.color.select);
+                        } else {
+                            holder.select_ly_day.setBackgroundResource(R.color.white);
+                        }
                     }
                 }
 
